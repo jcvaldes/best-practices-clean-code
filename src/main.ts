@@ -1,5 +1,5 @@
 import "./style.css";
-import "./clean-code/refactory/06-dry";
+import "./clean-code/smells/06-dry";
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
 app.innerHTML = `
