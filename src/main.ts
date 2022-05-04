@@ -1,5 +1,8 @@
 import "./style.css";
-import "./clean-code/smells/06-dry";
+// import "./solid/refactory/03-liskov-a";
+// import "./solid/smells/06-dependency-a";
+import "./solid/refactory/05-dependency-a";
+
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
 app.innerHTML = `
